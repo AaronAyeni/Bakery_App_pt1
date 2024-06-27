@@ -9,7 +9,7 @@ const Cake = ({ cake }) => (
         <li key={index}>{ingredient}</li>
       ))}
     </ul>
-    <p>Price: ${cake.price}</p>
+    <p>Price: £{cake.price}</p>
     <p>Rating: {cake.rating}</p>
   </div>
 );
